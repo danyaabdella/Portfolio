@@ -80,10 +80,10 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
           <div>
             <h3 className="text-2xl font-semibold mb-6">
-              Let's Work Together
+              Let&apos;s Work Together
             </h3>
             <p className="text-gray-600 dark:text-gray-400 mb-8">
-              I'm currently available for freelance work. If you have a project that you want to get started, 
+              I&apos;m currently available for freelance work. If you have a project that you want to get started, 
               think you need my help with something, or just want to say hello, then get in touch!
             </p>
             
@@ -195,7 +195,7 @@ export default function Contact() {
 
               {submitStatus === 'success' && (
                 <div className="p-4 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-lg">
-                  Message sent successfully! I'll get back to you as soon as possible.
+                  Message sent successfully! I&apos;ll get back to you as soon as possible.
                 </div>
               )}
             </form>

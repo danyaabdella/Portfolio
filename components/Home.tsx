@@ -10,14 +10,14 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Hello, I'm <span className="text-blue-600 dark:text-blue-400">Danya Abdella</span>
+              Hello, I&apos;m  <span className="text-blue-600 dark:text-blue-400">Danya Abdella</span>
             </h1>
             <h2 className="text-2xl md:text-3xl  mb-8">
               Junior Developer
             </h2>
             <p className="text-lg  mb-8">
               I create beautiful, functional, and user-centered digital experiences 
-              that bring ideas to life. Let's build something amazing together!
+              that bring ideas to life. Let&apos;s build something amazing together!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="#contact" className="btn btn-primary">
