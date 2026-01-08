@@ -22,24 +22,30 @@ export default function Resume() {
 
   const experience = [
     {
+      position: " Backend Developer",
+      company: "Fayida Academy",
+      period: "Dec 2025 - Present",
+      description: " Engaged in development and maintaing the backend architecture and schema design"
+    }
+    {
+      position: "Junior Software Developer",
+      company: "eTech",
+      period: "Aug 2025 - Dec 2025",
+      description: "Engage in developing and enhancing software products for eHealth system"
+    },
+    {
       position: "Intern",
       company: "Ibex Technologies and Promotion",
       period: "Jul 2024 - Oct 2024",
       description: "Developing responsive web applications using Next.js and RESTful API. Collaborating with UX designers to implement pixel-perfect interfaces. Optimizing application performance and accessibility."
-    },
-    {
-      position: "Junior Software Developer",
-      company: "eTech",
-      period: "Aug 2025 - Present",
-      description: "Engage in developing and enhancing software products for eHealth system"
     },
     
   ];
 
   const skills = {
     languages: ["JavaScript", "TypeScript", "HTML5", "CSS3", "Dart", "Flutter", "SQL", "Java", "C++"],
-    frameworks: ["React", "Next.js", "Angular", "Node.js", "Express", "Tailwind CSS"],
-    tools: ["Git", "GitHub", "VS Code", "Postman", "Docker"],
+    frameworks: ["React", "Next.js", "Angular", "Node.js", "Nest.js", "Express", "Tailwind CSS"],
+    tools: ["Git", "GitHub", "VS Code", "Postman", "Docker", "Swagger"],
     other: ["Responsive Design", "RESTful APIs", "UI/UX Principles", "Agile Methodology", "Database"]
   };
 
