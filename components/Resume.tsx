@@ -26,7 +26,7 @@ export default function Resume() {
       company: "Fayida Academy",
       period: "Dec 2025 - Present",
       description: " Engaged in development and maintaing the backend architecture and schema design"
-    }
+    },
     {
       position: "Junior Software Developer",
       company: "eTech",
